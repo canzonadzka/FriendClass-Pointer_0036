@@ -15,5 +15,8 @@ public:
         cin >> d1;
         cout << "Masukkan diagonal 2 layang-layang : ";
         cin >> d2;
+        cout << "Masukkan sisi pendek : ";
+        cin >> s1;
+        cout << "Masukkan sisi panjang : ";
+        cin >> s2;
     }
-    
