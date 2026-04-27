@@ -27,3 +27,6 @@ public:
 
     friend void tampilkanKeliling(LayangLayang, BelahKetupat);
 };
+
+class BelahKetupat {
+}
