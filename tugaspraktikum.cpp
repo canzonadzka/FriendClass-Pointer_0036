@@ -49,3 +49,10 @@ public:
     friend void tampilkanKeliling(LayangLayang, BelahKetupat);
 };
 
+void tampilkanKeliling(LayangLayang objectLayang, BelahKetupat objectBelah)
+{
+    cout << "\n--- Hasil Keliling ---" << endl;
+    cout << "Keliling Layang-Layang : " << 2 * (objectLayang.s1 + objectLayang.s2) << endl;
+    cout << "Keliling Belah Ketupat : " << 4 * objectBelah.s << endl;
+}
+
