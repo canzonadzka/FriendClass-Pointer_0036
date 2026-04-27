@@ -11,5 +11,9 @@ private:
 
 public:
     void inputData() {
+        cout << "Masukkan diagonal 1 layang-layang : ";
+        cin >> d1;
+        cout << "Masukkan diagonal 2 layang-layang : ";
+        cin >> d2;
     }
-}
+    
