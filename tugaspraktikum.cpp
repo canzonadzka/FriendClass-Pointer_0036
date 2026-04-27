@@ -56,3 +56,18 @@ void tampilkanKeliling(LayangLayang objectLayang, BelahKetupat objectBelah)
     cout << "Keliling Belah Ketupat : " << 4 * objectBelah.s << endl;
 }
 
+int main() {
+    LayangLayang objectLayang;
+    BelahKetupat objectBelah;
+
+    objectLayang.inputData();
+    objectBelah.inputData();
+
+    cout << "\n--- Hasil Luas ---" << endl;
+    cout << "Luas Layang-Layang   : " << objectLayang.hitungLuas() << endl;
+    cout << "Luas Belah Ketupat   : " << objectBelah.hitungLuas() << endl;
+
+    tampilkanKeliling(objectLayang, objectBelah);
+
+    return 0;
+}
